@@ -1,4 +1,4 @@
-name: test env deployment
+name: the test env deployment
 on:
   push:
 jobs:
