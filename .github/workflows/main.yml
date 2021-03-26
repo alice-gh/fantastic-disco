@@ -1,0 +1,12 @@
+name: test env deployment
+on:
+  push:
+jobs:
+  build:
+    environment:
+      name: staging
+      url: https://github.com
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, world!
